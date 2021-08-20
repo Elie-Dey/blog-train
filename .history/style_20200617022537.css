@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, .87);
+    line-height: 1.8;
+}
+.topbar{
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 30px ;
+}
+.topbar nav{
+    float: left;
+}
+.topbar nav a {
+    color: #9f9f9f;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 53px;
+}
+
+.topbar nav a:hover , .topbar nav a.active{
+    color:  rgba(0, 0, 0, .87);
+}
+
+ .social {
+    float: right;
+}
+
+.social a 
+{
+    padding: 0 12px;
+    opacity: .4;
+}
+.social a:hover
+{
+    opacity: 1;
+}
+
+.banniere {
+    height: 427px;
+    background: no-repeat center center / cover url("images/banniere.jpg") ;
+
+}
+.main
+{
+    float:left;
+    width: calc(100% - 300px);
+    background: white;
+    box-shadow: 0 4px 30px black;
+
+}
+.sidebar
+{
+    float: right;
+    background:black;
+    width: 300px;
+    padding: 40px;
+    font-size: 17px;
+}
+.sidebar a 
+{
+    text-decoration: none;
+    color: rgb(243, 241, 239);
+}
+.sidebar ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.sidebar li 
+{
+    padding: 6px 0;
+}
+.sidebar li:first-child
+{
+    padding-top: 0;
+}
+
+.sidebar li:last-child
+{
+    padding-bottom: 0;
+}
+.sidebar a:hover
+{
+    text-decoration: underline;
+}
+
+.sidebar hr
+{
+    border-color:none;
+    background: white;
+    height: 1px;
+    margin: 50px 0;
+
+
+}
+
+.sidebar-title
+{
+    font-size: 30px;
+    color: white;
+    margin: 20px 0;
+}
+.sidebar-title:first-child
+{
+    margin-top: 0;
+}
+
+
+
+.footer 
+{
+    clear: both;
+}
